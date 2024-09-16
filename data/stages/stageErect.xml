@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="1000" folder="erectStages/stage/" startCamPosY="600" zoom="0.85" name="stage">
+	<sprite x="729" sprite="backDark" y="-170" name="backDark"/>
+
+	<sprite scrolly="0.8" x="560" y="290" sprite="crowd" anim="idle" type="loop" scrollx="0.8" name="crowd">
+		<anim loop="true" fps="12" anim="Symbol 2 instance 1" name="idle"/>
+	</sprite>
+	<sprite x="967" scroll="1.2" sprite="brightLightSmall" y="-103" name="brightLightSmall"/>
+	<sprite x="-603" sprite="bg" y="-187" name="bg"/>
+	<sprite x="-361" sprite="server" y="205" name="server"/>
+	<sprite x="-101" sprite="lightred" y="560" name="lightRed"/>
+	<sprite x="-171" sprite="lightgreen" y="242" name="lightGreen"/>
+	<sprite x="189" sprite="orangeLight" y="-195" name="lightOrange"/>
+	<girlfriend scrolly="1" x="298" scrollx="1" y="145"/>
+	<dad x="-177" y="81"/>
+	<boyfriend/>
+	<sprite x="-601" scroll="1.2" sprite="lights" y="-147" name="lights"/>
+	<sprite x="804" sprite="lightAbove" y="-117" name="lightAbove"/>
+	<combo/>
+</stage>

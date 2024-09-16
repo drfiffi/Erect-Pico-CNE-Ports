@@ -1,0 +1,22 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="600" folder="erectStages/spooky/" startCamPosY="400" name="spookyErect" zoom="1.05">
+	<sprite scrolly="0.8" x="200" y="50" sprite="bgTrees" anim="idle" type="loop" scrollx="0.8" name="bgTrees">
+		
+		
+		
+		
+		<anim loop="true" name="idle" anim="bgtrees" fps="5"/>
+		
+		
+	
+	
+	</sprite>
+	<sprite x="-360" name="bgDark" sprite="bgDark" y="-220"/>
+	<sprite x="-360" sprite="bgLight" y="-220" alpha="0" name="bgLight"/>
+	<gf x="496" scrolly="1" y="188" scrollx="1"/>
+	<dad x="113" y="86"/>
+	<bf x="1020" y="77"/>
+	<sprite x="966" name="stairsDark" sprite="stairsDark" y="-225"/>
+	<sprite x="966" sprite="stairsLight" y="-225" alpha="0" name="stairsLight"/>
+	<combo x="1042" y="272"/>
+</stage>
